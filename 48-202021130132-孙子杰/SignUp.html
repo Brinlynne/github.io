@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="./css/homepage.css">
+</head>
+<body>
+    <div id="container">
+        <!-- 页眉区 -->
+        <header class="top"></header>
+        <!-- 导航区 -->
+        <nav class="naver">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="Clarinet.html">初识单簧管</a></li>
+                <li><a href="DailyPractice.html">日常练习</a></li>
+                <li><a href="Show.html">演出精彩瞬间</a></li>
+                <li><a href="SignUp.html" class="current">报名</a></li>
+            </ul>
+        </nav>
+        <div id="form">
+            <!-- 表单 -->
+            <h1>你对管乐团是否产生了兴趣呢？</h1>
+            <h1>如果感兴趣，请填写下面的表单提交给我们报名信息吧！</h1>
+            <form action="return.html" method="post">
+                <p>
+                    您是否有音乐基础:<br>
+                    <!-- 单选按钮 radio -->
+                      <input type="radio" name="sex" value="man">
+                      是
+                      <br>
+                      <input type="radio" name="sex" value="woman" checked> 
+                      否
+                </p>
+                <p>
+                  您对什么乐器产生了兴趣:
+                    <select name="grade">
+                      <option value="first">单簧管</option>
+                      <option value="second">长笛</option>
+                      <option value="third">双簧管</option>
+                      <option value="fourth">萨克斯</option>
+                      <option value="fifth">圆号</option>
+                      <option value="sixth">小号</option>
+                      <option value="seventh">长号</option>
+                      <option value="eighth">上低音号</option>
+                      <option value="ninth">大号</option>
+                      <option value="tenth">打击</option>
+                    </select>
+                </p>
+                <p>
+                    个人信息: <br>
+                    姓名:
+                        <input type="text" name="name" value=""><br>
+                    年级:
+                        <input type="text" name="grade" value=""><br>
+                    学院:
+                        <input type="text" name="college" value=""><br>
+                    学号:
+                        <input type="text" name="number" value=""><br>
+                    电话:
+                        <input type="text" name="phone" value=""><br>
+                </p>
+                <p>
+                  自我介绍:<br>
+                    <textarea name="introductions"></textarea>
+                </p>
+                <h2>如果您愿意，请在留言版内对我们的演出做出评价吧！：</h2>
+                <p>
+                    评价:<br>
+                      <textarea name="comments"></textarea>
+                  </p>
+                <p>
+                    <input type="submit" value="提交">
+                </p>
+            </form>
+        </div>
+
+        <!-- 页脚区 -->
+        <footer>
+            孙子杰, 202021130132, 信息与安全工程学院, 中南财经政法大学
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,205 @@
+body { 
+    background-color: #232752;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+    border: 4px dashed white;
+    padding: 10px;
+    color: white;
+}
+  
+header.top {
+    background: url(../images/bc.jpg);
+    margin: 10px 10px 10px 10px;
+    height: 80px;
+    padding-top: 50px;
+}
+
+nav {
+    background-color: #b9dfe2;
+    margin: 20px 10px 10px 10px;
+    height: 47px;
+    font-size: large;
+}
+nav ul {
+    text-align: center;
+    margin: 0 auto;
+    list-style-type: none;
+}
+nav ul li {
+    width: 20%;/*5个列表项，每个宽度设置为父元素ul的20%，使之间距相同*/
+    line-height: 47px;
+    list-style: none;
+    float: left;
+    display: inline;
+}
+nav ul li a:link, nav ul li a:visited {
+    color: #232752;
+    border-bottom: none;
+    font-weight: bold;
+}
+nav ul li.selected {
+    background-color: #87dae0;
+}
+nav ul li a.current{
+    background-color:#79c0c5;
+}
+
+
+  
+div#tableContainer {
+    display: table;
+    border-spacing: 10px;
+}
+div#tableRow {
+    display: table-row;
+}
+  
+section#main {
+    display: table-cell;
+    background:       url(../images/background.png) bottom right;
+    font-size:        105%;
+    padding:          15px;
+    padding-left:     40px;
+    vertical-align: top;
+}
+  
+aside {
+    display: table-cell;
+    background: url(../images/background.png) bottom right;
+    font-size: 105%;
+    padding: 15px;
+    padding-left: 40px;
+    vertical-align: top;
+}
+  
+  
+h1 {
+    font-size: 240%;
+    color:white;
+}
+  
+h2 {
+    font-size: 170%;
+    color: white;
+}
+
+p {
+    font-size: 125%;
+    text-indent: 2em;
+}
+
+p.images {
+    display: inline;
+}
+
+/* 链接正常样式 */
+a:link {
+    color:            #232752;
+    text-decoration:  none;
+    border-bottom:    thin dotted #232752;
+}
+/* 链接访问后样式 */
+a:visited {
+    color:            #b9dfe2;
+    text-decoration:  none;
+    border-bottom:    thin dotted #b9dfe2;
+}
+
+footer {
+    background-color: #87dae0;
+    color:            #232752;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        100%;
+}
+
+.group1 {
+    float: left;
+    width: 613px;
+    position: relative;
+    background:white;
+    padding:15px;
+    margin-bottom:10px;
+}
+
+.holder_gallery {
+    width: 350px;
+    float: left;
+    margin-right: 10px;
+    padding: 0;
+}
+
+a.photo_hover2{
+    position:relative;
+    float: left;
+    margin:5px 13px 8px 0;
+    padding: 8px;
+    -webkit-border-radius: .5em; 
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+}
+    a.photo_hover2{ 
+    background-color:white;
+    border: 1px solid #E1E1E1;
+
+}
+    a.photo_hover2:hover {
+    border: 1px solid #E1E1E1;
+}
+
+.Changesize{    
+    transition: all 0.2s linear;
+}
+.Changesize:hover{
+    transform: scale(2.0);
+    transition: all 0.2s linear;
+}
+
+
+h2 span{
+    font-weight:bold;
+    font-size:15px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    background-color:#87dae0;
+    padding:8px;
+    margin-left:20px;
+    -webkit-border-radius: .5em; 
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+}
+
+p span a:link {
+    color:            white;
+    text-decoration:  none;
+    border-bottom:    thin dotted white;
+    background-color: #87dae0;
+}
+p span a:visited {
+    color:            #232752;
+    text-decoration:  none;
+    border-bottom:    thin dotted #232752;
+}
+
+
+/*表格*/
+table {
+    border: 4px white dashed;
+    /* 边框间距 */
+    border-spacing: 10px 20px;
+}
+
+td {
+    border: 2px #87dae0 solid;
+    padding: 7px;
+}
+
+
+/*表单*/
+div#form {
+    background: url(../images/background.png) bottom right;
+    color:            white;
+    text-align:       center;
+    margin:           10px 0px 0px 10px;
+    font-size:        100%;
+}
